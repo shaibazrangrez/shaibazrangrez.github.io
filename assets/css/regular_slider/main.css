@@ -1,0 +1,36 @@
+/* *{
+  margin: 0;
+  padding: 0
+}
+.container{
+  height: 600px;
+}
+.inner-contain{
+  width: 900px;
+  height: 600px;
+  background: yellow;
+  margin: auto;
+  margin: auto;
+  display: flex;
+  align-items: center
+} */
+.slider{
+  height:auto !important;
+}
+.box{
+  /* height: 200px;
+  background-color: lime;
+  margin: 10px; */
+
+  height: 960px;
+  /* background-color: lime; */
+  margin: 10px 2px !important;
+  border: 1px solid #880cd1;
+  border-radius: 11px;
+}
+.slider-info{
+  line-height:21px;
+}
+.s-label{
+font-size: 12px;
+}

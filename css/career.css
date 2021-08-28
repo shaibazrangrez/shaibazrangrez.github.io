@@ -1,0 +1,167 @@
+
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  color: #01031c;
+}
+@font-face {
+  font-family:lovelo1;
+  src: url(../fonts/Lovelo-Black.woff);
+}
+@font-face {
+  font-family:Nunito-Regular;
+  src: url(../fonts/Nunito-Regular.ttf);
+}
+@font-face {
+  font-family:Nunito-SemiBold;
+  src: url(../fonts/Nunito-SemiBold.ttf);
+}
+.clr-grey{
+    color: #707070;
+}
+.c-label{
+  font-size:18px;
+}
+.career-head .valign-cell{
+  vertical-align: bottom;
+  text-align: center;
+}
+.career-head .title-left{
+  padding-left:0px;
+  margin-bottom:100px;
+}
+.contact-form-outer{
+  font-family:Nunito-Regular!important;
+}
+.aud-label,.form-outer-content,.form-inner-container{
+  font-family: Nunito-SemiBold
+}
+.creative-banner-1{
+  background-image: url(../image/work-wus-bg.png);
+}
+.aud-label{
+  font-size: 40px;
+  font-weight: 500;
+  /* margin-bottom: 70px; */
+  margin-bottom: 35px;
+  margin-top: 35px;
+  color: #2f2e41;
+}
+.aud-content{
+  font-size: 24px;
+  line-height: 30px;
+}
+.tab-head{
+  padding:50px 0px;
+  font-size: 40px;
+
+}
+
+
+
+.work-with-us{
+  width:75%;
+  margin: auto;
+}
+.work-with-us .box{
+  min-height: 500px;
+  border: 2px solid #764df8;
+  overflow: auto;
+}
+.work-with-us .box::-webkit-scrollbar
+{
+	width: 1px;
+}
+
+.w-info-inner{
+  padding:20px 20px;
+}
+.w-img{
+  width: 105px !important;
+  margin: auto;
+}
+.w-name-label{
+    margin: 10px 0px;
+  font-size: 20px;
+  color: #2f2e41;
+}
+.w-head-sec{
+  margin-bottom: 50px;
+}
+.w-conent-inner{
+  font-size: 18px;
+  color: #372964;
+}
+@media all and (max-width:1024px) and (min-width:789px){
+  .work-with-us {
+    width: calc(100% - 20px);
+}
+}
+@media all and (max-width:768px){
+  .work-with-us{
+    width:calc(100% - 20px);
+  }
+  .creative-banner-1{
+    background-image: url(../image/career-mob-bg3.png);
+  }
+  .career-head .title-left{
+    margin-bottom:0px;
+  }
+  .title-head{
+        margin-bottom: 125px;
+  }
+}
+@media all and (max-width:600px){
+  .work-with-us{
+    width:100%;
+  }
+  .aud-label{
+    font-size:25px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  .aud-content{
+    font-size:18px;
+    text-align:justify;
+  }
+  .w-info-inner{
+    padding: 15px 15px;
+  }
+  .w-conent-inner{
+    text-align: justify;
+  }
+
+
+
+  .mob-bg{
+    align-items:center;
+    justify-content: end;
+  }
+  .career-head .title-left{
+    margin-top:-72px;
+    margin-bottom:0px;
+  }
+  .career-head .title-head{
+        font-size: 24px;
+        margin-bottom:0px;
+  }
+
+}
+@media all and (max-width:768px) and (min-width:601px){
+  .creative-banner-1{
+    background-image: url(../image/career-mob-bg-5.png);
+  }
+  .title-head {
+    margin-bottom: 200px;
+}
+}
+@media screen and (max-width: 900px) and (min-width: 600px) and (orientation: landscape){
+  .menuzord-menu>li {
+    margin-left: 20px;
+}
+.career-head .title-left{
+      margin-bottom: 230px;
+}
+}

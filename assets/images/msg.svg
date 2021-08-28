@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="75" viewBox="0 0 73 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d4c1ec;
+        opacity: 0.851;
+      }
+
+      .cls-2 {
+        fill: #9f1baa;
+      }
+    </style>
+  </defs>
+  <g id="Group_8461" data-name="Group 8461" transform="translate(-869 -647)">
+    <ellipse id="Ellipse_17" data-name="Ellipse 17" class="cls-1" cx="36.5" cy="37.5" rx="36.5" ry="37.5" transform="translate(869 647)"/>
+    <path id="Icon_ionic-md-mail" data-name="Icon ionic-md-mail" class="cls-2" d="M38.321,5.625H6.047a3.808,3.808,0,0,0-3.8,3.8V33.153a3.808,3.808,0,0,0,3.8,3.8H38.321a3.808,3.808,0,0,0,3.8-3.8V9.422A3.808,3.808,0,0,0,38.321,5.625Zm-.474,8.069L22.184,24.135,6.522,13.694V9.9L22.184,20.338,37.846,9.9Z" transform="translate(883.75 663.375)"/>
+  </g>
+</svg>

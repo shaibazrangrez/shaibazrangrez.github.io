@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="75" viewBox="0 0 73 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d4c1ec;
+        opacity: 0.851;
+      }
+
+      .cls-2 {
+        fill: #9f1baa;
+      }
+    </style>
+  </defs>
+  <g id="Group_8461" data-name="Group 8461" transform="translate(-869 -647)">
+    <g id="Group_8478" data-name="Group 8478">
+      <ellipse id="Ellipse_17" data-name="Ellipse 17" class="cls-1" cx="36.5" cy="37.5" rx="36.5" ry="37.5" transform="translate(869 647)"/>
+      <path id="Icon_awesome-phone-alt" data-name="Icon awesome-phone-alt" class="cls-2" d="M30.275,22.022,23.458,19.1a1.461,1.461,0,0,0-1.7.42l-3.019,3.689A22.561,22.561,0,0,1,7.949,12.424L11.638,9.4a1.457,1.457,0,0,0,.42-1.7L9.136.883A1.471,1.471,0,0,0,7.462.037L1.132,1.5A1.461,1.461,0,0,0,0,2.922,28.24,28.24,0,0,0,28.243,31.165a1.461,1.461,0,0,0,1.424-1.132l1.461-6.33a1.478,1.478,0,0,0-.853-1.68Z" transform="translate(890 669)"/>
+    </g>
+  </g>
+</svg>

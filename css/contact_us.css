@@ -1,0 +1,215 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  color: #01031c;
+}
+@font-face {
+  font-family:lovelo1;
+  src: url(../fonts/Lovelo-Black.woff);
+}
+@font-face {
+  font-family:Nunito-Regular;
+  src: url(../fonts/Nunito-Regular.ttf);
+}
+@font-face {
+  font-family:Nunito-SemiBold;
+  src: url(../fonts/Nunito-SemiBold.ttf);
+}
+.clr-grey{
+    color: #707070;
+}
+.c-label{
+  font-size:18px;
+}
+.contact-form-outer,.contact-footer{
+  font-family:Nunito-Regular!important;
+}
+.aud-label,.form-outer-content,.form-inner-container{
+  font-family: Nunito-SemiBold
+}
+.creative-banner-1{
+  background-image: url(../image/contact-bg4.png);
+}
+.aud-label{
+  font-size: 40px;
+  font-weight: 500;
+  /* margin-bottom: 70px; */
+  margin-bottom: 60px;
+  margin-top: 35px;
+}
+.aud-content{
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+.tab-head{
+  padding:50px 0px;
+  font-size: 40px;
+
+}
+.aud-game-label,.contact-form-outer,.c-info-footer{
+  width: 60%;
+  margin: auto;
+}
+.contact-form-outer{
+
+  background-color:#f5f4f9;
+  border: 2px solid #764df8;
+  border-radius: 25px;
+}
+.c-form-container{
+  /* background-color:#f5f4f9; */
+  padding: 60px 0px;
+  max-width: calc(100% - 125px);
+  margin: auto;
+}
+.c-frm-group .input-sec{
+  background-color: #fff !important;
+  min-height: calc(55px - 10px) !important;
+  padding: 5px !important;
+  border: 0px !important;
+  border-radius: 4px !important;
+  margin-bottom: 0px !important;
+}
+input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+  font-size: 20px!important;
+  padding-left: 15px !important;
+}
+input::placeholder{
+  color:#A2A2A2;
+}
+textarea::-webkit-input-placeholder {
+color:#A2A2A2;
+}
+.ui-autocomplete-input{
+  height: 201px;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  padding: 15px 10px;
+  border: 0px;
+  background-color: #Fff;
+}
+.contact-frm-inner{
+  padding:35px 0px;
+}
+.contact-frm-inner .form-group{
+  margin-bottom:30px;
+}
+.c-btn{
+  border: 0px;
+  border-radius: 20px;
+  background-color: #9f1baa;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  width: 300px;
+  min-height: 40px;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+input:focus:not([readonly]){
+    box-shadow: none !important;
+}
+.c-address p{
+  font-size:18px;
+  margin-bottom: 10px;
+}
+.cs-icn{
+  font-size: 20px;
+  background-color: #d4c1ec;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9f1baa;
+  cursor:pointer;
+}
+.contact-icn{
+  justify-content:space-between;
+}
+.contact-icn-outer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-icn-outer p{
+  margin:0px;
+  line-height: 24px;
+}
+.c-icn-label{
+  font-size: 14px;
+  font-weight: bold;
+}
+.c-faq-label{
+  font-size: 11px;
+  text-decoration: underline;
+  color: #2369ed;
+  font-weight: 600;
+}
+
+@media all and (max-width:768px){
+  .aud-game-label, .contact-form-outer, .c-info-footer{
+    width: calc(100% - 30px);
+  }
+  .c-btn{
+    font-size: 18px;
+    width: 250px;
+    padding: 5px 5px;
+  }
+
+  .creative-banner-1 {
+    background-image: url(../image/contact-mob-bg1.png);
+}
+}
+@media all and (max-width:600px){
+  .aud-game-label, .contact-form-outer, .c-info-footer{
+    width:100%;
+  }
+  .c-form-container{
+    max-width: calc(100% - 30px);
+    padding: 30px 0px;
+  }
+  .aud-label{
+    font-size: 30px;
+  }
+  .c-info-footer{
+    flex-direction: column;
+  }
+  .contact-icn .contact-icn-outer{
+    flex:1;
+  }
+  .c-icn-label{
+    font-size:11px;
+  }
+  .c-faq-label{
+    line-height: 20px;
+  }
+  .c-label{
+    font-size:17px;
+  }
+  input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+    font-size:18px !important;
+  }
+
+}
+@media all and (max-width:400px){
+  .c-faq-label{
+    white-space:nowrap;
+  }
+}
+@media all and (max-width: 768px) and (min-width: 600px){
+  .mob-bg {
+    display: flex;
+    align-items: flex-end;
+  }
+  .title-head {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+}

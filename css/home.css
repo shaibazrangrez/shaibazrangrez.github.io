@@ -1,0 +1,321 @@
+.title-head{
+  /* font-family: Nunito-SemiBold !important; */
+}
+.title-head{
+  /* font-family: Nunito-Regular; */
+}
+
+.game-box{
+  box-shadow:0px 2px 4px 0px #cdcdcd;
+border-radius: 10px;
+    margin: 0px 20px;
+}
+.game-box-outer{
+  margin:15px 0px;
+}
+.game-label{
+  text-align:center;
+  margin:0px;
+  font-weight: 600;
+  font-size: 21px;
+  padding: 18px 0px;
+  /* border-top: 1px solid #764df8; */
+}
+.game-box{
+  /* border: 1px solid #764df8; */
+}
+.img-sec img{
+  border-radius:10px 10px 0px 0px;
+  width:100%;
+}
+@media all and (max-width:600px){
+  .img-sec img{
+    height:115px;
+  }
+  .game-label{
+    font-size:16px;
+  }
+  .game-box {
+    margin: 15px 10px !important;
+    width: calc(50% - 20px) !important;
+  }
+  .game-label{
+    padding: 10px 0px;
+  }
+}
+
+@media all and (max-width:1024px){
+  .menuzord-menu>li{
+    margin-left:15px;
+  }
+  .dwn-btn-inner{
+    width: 160px;
+    height: 45px;
+    margin: 0px 4px;
+  }
+  .g-box img{
+    width: 360px;
+  }
+  .game-box{
+    margin: 15px 15px;
+    width: calc(50% - 30px);
+  }
+}
+  .showhide{
+    /* display:none !important; */
+  }
+  .tt-nav{
+    /* display:none; */
+  }
+  .top-section{
+    height: 650px;
+  }
+  .g_btn_sec{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .g-box img{
+    width:280px;
+  }
+  .g_btn_sec div:last-child{
+    margin-top:20px;
+  }
+  .game-content p,.oTeam_content p{
+    text-align:justify;
+  }
+  .a-img-sec img{
+    height:220px;
+  }
+  .game-label-outer{
+    justify-content: center;
+  }
+  .g-title-label{
+    padding-right:0px;
+  }
+  .section-padding{
+    /* padding:60px 0px; */
+    padding:20px 0px;
+  }
+
+
+/* =============mob menu style start============ */
+  #materialize-menu{
+    position:relative;
+    /* display:inherit; */
+  }
+  .menuzord-menu{
+    /* position: absolute;
+    top: 47px;
+    margin: 0px !important;
+    left: -15px;
+    right: -30px;
+    padding: 0px;
+    width: auto !important; */
+  }
+  /* .w-logo{
+    display:none;
+  } */
+  .b-logo{
+    display:none;
+  }
+  /* .logo-brand .logo, .tt-nav .logo-brand .logo{
+    height:22px !important;
+  } */
+  .has-header-search .menuzord-responsive .showhide{
+    margin-right:0px;
+  }
+  /* .tt-nav.sticky .logo-brand,.menuzord-responsive .logo-brand{
+    margin: 14px 0 0;
+  } */
+  #header .container{
+    width: 90%;
+    margin: auto !important;
+  }
+  /* #header.transparent-header .light-header, #header.transparent-header{
+    background: #fff!important;
+  } */
+  /* .menuzord-menu>li>a{
+    font-size:18px;
+  } */
+  .nav-border-bottom .menuzord .menuzord-menu>li.active>a, .nav-border-bottom .menuzord .menuzord-menu>li:hover>a, .nav-border-bottom .brand-header .menuzord .menuzord-menu>li.active>a, .nav-border-bottom .brand-header .menuzord .menuzord-menu>li:hover>a{
+    border-bottom-color: #764df8 !important;
+  }
+  .menuzord .menuzord-menu>li.active>a, .menuzord .menuzord-menu>li.active>a>i, .menuzord .menuzord-menu>li:hover>a, .menuzord .menuzord-menu>li:hover>a>i{
+    color: #764df8!important;
+  }
+
+  /* =============mob menu style end============ */
+}
+
+
+@media all and (max-width:650px){
+  .about-inner-section,.our-products,.game-product-sec,.game-head-outer,.game-box-outer,.oTeam_outer,.footer_outer{
+    flex-direction:column;
+  }
+  .top-section{
+    height:525px;
+  }
+  .title-head{
+    font-size: 40px;
+  }
+  .t-head1{
+    margin-bottom:45px;
+  }
+  .g-box{
+    width:100%;
+  }
+  .g-box img{
+    width:100%;
+  }
+  .a-us-title{
+    padding-right:0px;
+  }
+  .about-title{
+    text-align:center;
+  }
+  .a-img-sec{
+    text-align:center;
+  }
+  .a-info-text{
+    text-align:justify;
+  }
+  .p-label-head{
+    text-align:center;
+  }
+  .p_tab_lebel{
+    margin: 0px 5px;
+  }
+  .g_left{
+    text-align:center;
+  }
+  .g_left img{
+    height: 285px;
+    width: 330px;
+  }
+  .g_lebal{
+    text-align:center;
+  }
+  .game-img{
+    text-align:center;
+  }
+
+}
+@media all and (max-width:960px){
+  .g_right{
+    margin-left: 20px;
+  }
+}
+@media all and (max-width:900px){
+  .g_right{
+    margin-left: 20px;
+  }
+}
+
+.ab_top_mob{
+  display:none;
+}
+.g_label_mob{
+  display:none;
+}
+@media all and (max-width:768px){
+  .creative-banner-1{
+    background-image: url(../image/home-bg-mob1.png);
+  }
+  .about-inner-section{
+    flex-wrap: wrap;
+  }
+  .game-product-sec{
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .g_label_desk{
+    display:none;
+  }
+  .g_right{
+    margin-left:inherit;
+  }
+  .ab_top{
+    display:none;
+  }
+  .ab_top_mob{
+    display:block;
+    flex:1;
+  }
+  .g_label_mob{
+    display:block;
+    flex: 1;
+    text-align: right;
+  }
+  .g_label_mob .g_lebal{
+    padding-right:20px;
+  }
+
+  .ab_top_mob .a-us-title{
+    padding-right: 20px;
+  }
+  .a-info-text{
+    text-align:justify;
+  }
+  .game-box-outer{
+    flex-wrap: wrap !important;
+  }
+  .a-img-sec img,.p-img img,.g_left img,.game-img img,.oTeam-right img{
+    height: 200px;
+  }
+  .game-content,.g_content,.oTeam_content{
+    margin-top:10px;
+  }
+
+}
+@media all and (max-width:600px){
+  .a-img-sec img, .p-img img, .g_left img, .game-img img, .oTeam-right img{
+    height: 130px;
+  }
+  .a-us-title,.p-label-head,.g-title-label,.oTeam_label{
+    font-size: 30px
+  }
+  .g_content{
+    text-align:justify;
+  }
+  .oTeam_label{
+    padding-right:0px;
+  }
+  .g-box img{
+    width: calc(100% - 15px) !important;
+  }
+  #header-slider .slick-slide{
+    margin: 0px 5px !important;
+  }
+}
+@media all and (max-width:768px) and (min-width:600px){
+  .g_label_mob{
+    text-align:center;
+  }
+  .g_label_mob .g_lebal{
+    padding-right:0px;
+        font-size: 40px;
+  }
+  .title-left{
+    margin-left:0px;
+  }
+  .mob-bg{
+    display: flex;
+    align-items: flex-end;
+  }
+  .t-head1{
+    margin-bottom: 50px;
+  }
+  .title-head{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center
+  }
+}
+@media all and (max-width:374px){
+  .a-img-sec img, .p-img img, .g_left img, .game-img img, .oTeam-right img{
+    height:100px;
+  }
+  .a-us-title, .p-label-head, .g-title-label, .oTeam_label{
+    font-size: 25px;
+  }
+}
